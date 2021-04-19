@@ -11,7 +11,20 @@ h1,h2{
         color: white;
         position: relative;
     }
-
+.btn-atomic-tangerine {
+    background: #cc3333;
+    color: #ffcc66;!important;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.139em;
+}
+#bloc-8{
+    background-color: #ffcc66;
+}
+.btn-atomic-tangerine:hover {
+    background:#ffcc66!important;
+    color: #cc3333;!important;
+}
 /* fin modifications contrastes*/
 a,
 button {
@@ -697,7 +710,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #e0b148;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -770,21 +783,6 @@ h4 {
 
 .bgc-dark-slate-blue {
     background-color: #364577;
-}
-
-.bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
-
-
-.btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
-}
-
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
 }
 
 .ltc-white {

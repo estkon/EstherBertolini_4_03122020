@@ -13,17 +13,18 @@ h1,h2{
     }
 .btn-atomic-tangerine {
     background: #cc3333;
-    color: #ffcc66;!important;
+    color: white;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 0.139em;
 }
-#bloc-8{
-    background-color: #ffcc66;
-}
+
 .btn-atomic-tangerine:hover {
     background:#ffcc66!important;
-    color: #cc3333;!important;
+    color: black;!important;
+}
+#bloc-8{
+    background-color: #ffcc66;
 }
 /* fin modifications contrastes*/
 a,
@@ -710,7 +711,6 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #e0b148;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;

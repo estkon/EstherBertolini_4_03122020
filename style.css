@@ -27,6 +27,22 @@ h1,h2{
     background-color: #ffcc66;
 }
 /* fin modifications contrastes*/
+
+/*typographie*/
+p {
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.039em;
+}
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #333333!important;
+}
+/*fin typographie*/
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -695,10 +711,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -727,12 +739,7 @@ h2 {
     line-height: 1.4em;
 }
 
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-}
+
 
 .med-width-whitespace {
     max-width: 800px;

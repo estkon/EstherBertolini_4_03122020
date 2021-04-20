@@ -61,7 +61,30 @@ h4 {
 }
 /*fin typographie*/
 
-a,
+li {
+    padding: 5px 0 5px 0;
+    line-height: 2;
+    font-size: 15px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.footer{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.039em;    
+}
+a.bold-link{
+    font-weight: 600;
+    font-size: 28px;
+}
+a.bold-link:hover{
+    text-decoration: white underline;
+}
+
+/*fin liens footer*/
+a
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
@@ -186,7 +209,7 @@ a:hover {
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
-.d-bloc p a {
+ {
     color: black;
 }
 
@@ -750,6 +773,7 @@ a {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    line-height: 95px
 }
 
 h2 {
@@ -797,10 +821,7 @@ h2 {
     padding: 40px 40px 40px 40px;
 }
 
-.bold-link {
-    font-weight: 900;
-    text-decoration: underline!important;
-}
+
 
 .bgc-white {
     background-color: #FFFFFF;
@@ -812,10 +833,6 @@ h2 {
 
 .ltc-white {
     color: #FFFFFF!important;
-}
-
-.ltc-white:hover {
-    color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
